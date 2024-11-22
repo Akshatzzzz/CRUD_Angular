@@ -1,0 +1,32 @@
+.mat-card-custom {
+    padding: 50px;  
+  }
+  
+  .mat-icon {
+    color: rgb(103 103 103);
+    width: 10px;
+  }
+  .bold-title {
+    font-weight: bolder;
+  }
+  
+  .search-container {
+    display: flex;                 
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;                   
+  }
+  
+  .input-container {
+    width: 20%;
+    padding: 30px;              
+  }
+  
+  .search-button {
+    width: 250px;                  
+    margin-left: 10px;
+  }
+
+  .table{
+    font-weight: bold;
+  }

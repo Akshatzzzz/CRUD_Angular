@@ -1,0 +1,50 @@
+mat-form-field {
+    width: 100%;
+  }
+
+.dialog-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.dialog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+.form-field {
+  width: 100%;
+}
+
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+
+button {
+  min-width: 120px;
+}
+
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+  border-color: #6200ea;
+}
+
+
+.mat-form-field-infix {
+  font-size: 14px;
+}
+
+.mat-input-element {
+  height: 40px;
+}

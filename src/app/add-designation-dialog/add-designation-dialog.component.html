@@ -1,0 +1,31 @@
+ <h1 mat-dialog-title class="dialog-title">Add New Designation</h1>
+<form>
+<div mat-dialog-content class="dialog-content">
+  <mat-form-field appearance="outline" class="form-field">
+    <mat-label>Designation Name:</mat-label>
+    <input matInput [(ngModel)]="designation.name" name="designation" placeholder="Enter designation name" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="form-field">
+    <mat-label>Department Name:</mat-label>
+    <input matInput [(ngModel)]="designation.department" name="department" placeholder="Enter department name" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="form-field">
+    <mat-label>Pay Grade:</mat-label>
+    <input matInput [(ngModel)]="designation.payGrade" name="paygrade" placeholder="Enter paygrade" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="form-field">
+    <mat-label>Responsibilities:</mat-label>
+    <input matInput [(ngModel)]="designation.responsibilities" name="responsibility" placeholder="Enter responsibility" required>
+  </mat-form-field>
+</div>
+
+<div mat-dialog-actions class="dialog-actions">
+  <button mat-raised-button color="primary" mat-dialog-close (click)="saveDesignation()">Save</button>
+  <button mat-raised-button color="accent" mat-dialog-close (click)="closeDialog()">Cancel</button>
+</div>
+</form>
+
+
